@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<datas>
+  <setting label="设置,是否XX的那种都是1为是，0为否" />
+  <systemSetting>
+    <appVersion val="Version:2021.03.12_17:10:51" label="版本号" time="132532170512264180" />
+    <saveTime val="2023.03.29_18:15:35" time="133245585354082910" />
+  </systemSetting>
+  <appSetting title="app设置" label="这里这些是各个不同的app所用到的选项数据">
+    <wsUrl type="s" val="ws://" label="webSocket服务器地址1" />
+    <httpServerUrl type="s" val="http://" label="数据服务器地址" />
+    <TcpServerIpPort type="s" val="127.0.0.1:1239" label="数据服务器地址" />
+    <wsWsUrl label="输入-CfInputTxtWsScreen服务器地址" type="s" val="" />
+    <DataServerPath label="输入-CfInputTxtHttp服务器地址" type="s" val="" />
+    <wsScreenUrl label="输入-CfInputTxtWsScreen服务器地址" type="s" val="" />
+    <HttpOrder val="1" label="3">
+      <option id="0" val="order1" label="命令1" />
+      <option id="1" val="order2" param="1" label="命令2" />
+    </HttpOrder>
+    <WsOrder val="1" label="1">
+      <option id="0" val="order1" label="命令1" ws="ws" autoOpen="0" save="0" trace="0" />
+      <option id="1" val="order2" label="命令2" ws="ws" autoOpen="1" save="0" trace="0" />
+    </WsOrder>
+    <UseLocalJson label="使用本地数据测试" val="0" />
+    <TraceDataPath label="输入-CfInpputTraceDataPah" type="s" val="" />
+  </appSetting>
+</datas>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<datas>
+  <setting label="设置,是否XX的那种都是1为是，0为否" />
+  <systemSetting>
+    <appVersion val="Version:2023.06.10_16:10:51" label="版本号" time="133308583831678612" />
+    <saveTime val="2024.04.30_12:30:51" time="133589250517979269" />
+    <isDebug type="b" val="0" label="启用调试模式" />
+    <frameRate type="i" val="60" min="1" max="60" label="运行时额定帧频" />
+    <frameRateLow type="i1" val="24" min="1" max="60" label="性能低时调节到较低的帧频" />
+    <mouseState type="L" selectLabel="显示" val="0" label="鼠标状态0为显示,1为隐藏,2为编辑时显示但导出运行时隐藏" />
+    <showFps val="0" x="950" y="-520" label="是否显示FPS,以及FPS的坐标" />
+    <language val="0" list="Chinese;English" />
+    <QualityLevel type="l" enable="0" levelName="Ultra" val="3" DefultEvt="1" label="Quality级别0VeryLow,1Low,2Medium,3Hight,4VeryHeight,5Ultra">
+      <option val="VeryLow" />
+      <option val="Low" />
+      <option val="Medium" />
+      <option val="Hight" />
+      <option val="VeryHeight" />
+      <option val="Ultra" />
+    </QualityLevel>
+    <TraceOption val="1" AutoPauseTrace="0" ShowTraceNum="5" TraceTcp="0" TraceHttp="1" TraceWs="1" ShowInCheckView="0" FormJson="0" JustSave="0" label="输出Http" type="s" />
+  </systemSetting>
+  <appSetting title="app设置" label="这里这些是各个不同的app所用到的选项数据">
+    <StartUpUrl type="s" val="startup.png" />
+    <ShowSetting type="s" val="0" />
+    <LoadingInfo val="实训室数字孪生系统" label="loading界面显示的文字信息" />
+    <StartVideo label="开场视频" show="0" />
+    <VisibleInRun label="运行时显示或隐藏" val="0" />
+    <ServerInfo label="tcp" type="s" ip="" getLocalIp="0" />
+    <TraceDataPath label="输出数据保存地址" type="s" val="" />
+    <RoadOffsetY val="1.3" />
+    <MouseClickKey val="0" />
+    <UseLocalJson val="0" />
+    <DeviceIdList type="l" label="设备ID列表">
+      <option val="fcf94330-050a-11ee-8d5f-c74e2424669a" label="空压机1" />
+      <option val="5b90cee0-050b-11ee-8d5f-c74e2424669a" label="空压机2" />
+      <option val="f5048f80-050b-11ee-8d5f-c74e2424669a" label="空压机3" />
+      <option val="a96fb5f0-0505-11ee-8d5f-c74e2424669a" label="冷干机1" />
+      <option val="2f81a6c0-0507-11ee-8d5f-c74e2424669a" label="冷干机2" />
+      <option val="d02f92c0-0508-11ee-8d5f-c74e2424669a" label="冷干机3" />
+      <option val="50f08a90-0509-11ee-8d5f-c74e2424669a" label="电表1" />
+      <option val="e4531a00-0509-11ee-8d5f-c74e2424669a" label="电表2" />
+      <option val="5f763be0-050a-11ee-8d5f-c74e2424669a" label="电表3" />
+      <option val="a95370d0-0504-11ee-8d5f-c74e2424669a" label="母管流量" />
+      <option val="4791f560-0504-11ee-8d5f-c74e2424669a" label="露点仪" />
+      <option val="99fd5020-0503-11ee-8d5f-c74e2424669a" label="主压力" />
+      <option val="0289d6e0-0504-11ee-8d5f-c74e2424669a" label="备压力" />
+    </DeviceIdList>
+    <airPressureThreshold val="8.5" label="空压机排气压力告警阈值" type="" min="8" max="10" reset="8.5" />
+    <airTemperatureThreshold val="76" label="空压机排气温度告警阈值" type="" min="74.0" max="80" reset="76" />
+    <AutoHandleWaitTime val="1.099197" label="自动处理倒计时-分钟" type="" min="1" max="10" />
+    <CursorStyle label="光标风格开关" val="0" />
+    <roomUseTime val="2024-04-30 12:29:12" label="使用情况的记录时间" index="2" />
+    <BookFolderPath label="输入-CfInpputTraceDataPah" type="s" val="" />
+    <BookFlipSpeed label="翻书速度" type="" min="0" max="1" val="0" />
+    <TimeByReal label="开关-CfToggle-实时时间轴" val="0" />
+  </appSetting>
+</datas>

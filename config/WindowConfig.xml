@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<datas>
+  <setting label="窗口设置,是否XX的那种都是1为是，0为否" />
+  <systemSetting>
+    <appVersion val="Version:2023.03.31_14:25:45" label="版本号" time="132532170512264180" />
+    <saveTime val="2023.05.28_21:01:16" time="133297524761775466" />
+    <WinSetEnable val="0" label="是否启用窗口设置" />
+    <Fullscreen val="1" label="无边框/有边框" type="b" />
+    <AutoZoom val="1" label="自适应等比缩放" type="b" />
+    <AutoFitRatios val="0" checkTime="0" label="自适应横竖屏" type="b" />
+    <TopMode val="1" label="窗口置顶" />
+    <Resolution x="0" y="0" width="1920" height="1080" label="窗口的坐标和宽度" />
+    <ResolutionList val="0" type="list" levelName="1920X1080" DefultEvt="0" label="分辩率列表">
+      <option val="1920x1080" />
+      <option val="1080x1920" />
+      <option val="1080x2560" />
+      <option val="608x1080" />
+      <option val="3840x1080" />
+      <option val="3840x2160" />
+    </ResolutionList>
+  </systemSetting>
+  <appSetting title="app设置" label="这里这些是各个不同的app所用到的选项数据">
+  </appSetting>
+</datas>
